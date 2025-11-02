@@ -31,16 +31,16 @@ python 05_track_face.py
 Take images of faces and train the model as datasets. Make sure you are not in motion while taking images and there is no light changes. Too much light or dark changes can cause the model to be unstable. Take as many pictures as you can (Minimum 200 images).
 
 ### 02_review_dataset.py
-Review the dataset and remove any images that are not clear or not of good quality. Make sure to review all the captured images.
+Review the dataset and remove any images that are not clear.
 
 ### 03_train_model.py
 Train the model using the dataset.
 
 ### 04_predict.py
-Predict the face using the model. 
+Predict the face using the trained model with the haarcascade algorithm. 
 
 ### 05_track_face.py
-Track the face using the model.
+Track the face motion and direction using the captured details and then control the motor where the face moves with the motor .
 
 ## License
 MIT
